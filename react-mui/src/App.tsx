@@ -1,11 +1,12 @@
 import React from 'react';
-import { MuiTypography } from './Components/MuiTypography';
 import './App.css'
+import { MuiButton } from './Components/MuiButton';
+import { MuiToggleButton } from './Components/MuiToggleButton';
 
 function App() {
   return (
     <div className="App">
-      <MuiTypography/>
+      <MuiToggleButton/>
     </div>
   );
 }
